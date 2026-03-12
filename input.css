@@ -2,11 +2,8 @@
 
 @theme {
   --color-author: rgb(55, 65, 81);
-  /* --shadow: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent); */
-}
-
-.shadow {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
+  --breakpoint-*: initial;
+  --breakpoint-desktop: 84.375rem;
 }
 
 @layer base {
