@@ -15,9 +15,9 @@
     </style>
     <link rel="stylesheet" href="src/output.css" />
   </head>
-  <body class="flex justify-center items-center h-screen">
+  <body class="flex justify-center items-center desktop:h-screen">
     <div
-      class="w-[70%] h-145 bg-[#F3F4F6] rounded-3xl relative grid grid-cols-[repeat(4,1fr)] grid-rows-[repeat(2,1fr)]"
+      class="w-[70%] desktop:h-145 bg-[#F3F4F6] rounded-3xl relative grid desktop:grid-cols-[repeat(4,1fr)] desktop:grid-rows-[repeat(2,1fr)] grid-rows-[300px_repeat(6,400px)]"
       style="
         background-image: url(resources/Background_decor.svg);
         background-repeat: no-repeat;
@@ -30,7 +30,9 @@
         >
       </div>
 
-      <div class="col-start-1 col-end-3 mt-11 ml-11 mr-8">
+      <div
+        class="desktop:col-start-1 desktop:col-end-3 mt-11 ml-11 mr-8 grid gap-0.3"
+      >
         <p class="text-[#263FA9] text-base font-normal">Our Team</p>
         <p class="font-medium text-[40px] text-black">Meet the brain</p>
         <p class="text-base font-medium text-[#394150]">
@@ -55,7 +57,7 @@
       </div>
 
       <div
-        class="relative bg-[#EDACD2] bg-cover bg-center rounded-tr-3xl"
+        class="relative bg-[#EDACD2] bg-cover bg-center desktop:rounded-tr-3xl"
         style="
           background-image:
             linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent),
@@ -80,7 +82,7 @@
       </div>
 
       <div
-        class="relative col-start-2 bg-[#9DC4F8] bg-cover bg-center"
+        class="relative desktop:col-start-2 bg-[#9DC4F8] bg-cover bg-center"
         style="
           background-image:
             linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent),
@@ -108,7 +110,7 @@
       </div>
 
       <div
-        class="relative bg-[#86E7D4] bg-cover bg-center rounded-br-3xl"
+        class="relative bg-[#86E7D4] bg-cover bg-center desktop:rounded-br-3xl"
         style="
           background-image:
             linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent),
