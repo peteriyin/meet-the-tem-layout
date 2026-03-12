@@ -3,6 +3,7 @@
 @theme {
   --color-author: rgb(55, 65, 81);
   --breakpoint-*: initial;
+  --breakpoint-tablet: 64rem;
   --breakpoint-desktop: 84.375rem;
 }
 
